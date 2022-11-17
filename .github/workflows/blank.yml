@@ -1,9 +1,8 @@
 name: Automated API tests using Postman CLI
 
 on: push
-
-    schedule: ## Schedule the job to run at 00.25 am daily.
-      - cron: '26 0 * * *'
+schedule: ## Schedule the job to run at 00.25 am daily.
+  - cron: '32 0 * 11 5'
 
 jobs:
   automated-api-tests:
